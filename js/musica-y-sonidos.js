@@ -1,7 +1,7 @@
 var btniniciar = document.querySelector("#iniciar")
     btniniciar.addEventListener("click", playOrPause)
 var reproduciendose = 0;
-var audio = new Audio("sound/gameSong.mp3");
+var audio = new Audio("sound/game.mp3");
 function playOrPause() {
 reproduciendose = reproduciendose + 1;
 if (reproduciendose == 1) {
@@ -21,9 +21,9 @@ var btnanhadir = document.querySelector("#btnanhadir")
       reproduciendose = reproduciendose + 1;
       if (reproduciendose == 1) {
         audio.play();
-      }else{
+      } else {
         audio.pause();
         reproduciendose = 0;
       }
-      return(reproduciendose);
+      return(reproduciendose);      
       }
