@@ -13,3 +13,14 @@ if (reproduciendose == 1) {
 }
 return(reproduciendose);
 }
+
+var btnanhadir = document.querySelector("#btnanhadir")
+    btnanhadir.addEventListener("click", playOrPause2);
+      function playOrPause2() {
+       var audio = new Audio("sound/tcmbr.mp3");
+      reproduciendose = reproduciendose + 1;
+      if (reproduciendose == 1) {
+        audio.play();
+      }
+      return(reproduciendose);
+      }

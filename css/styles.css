@@ -26,5 +26,30 @@ body{
 }
 
 #iniciar:active{
-    
+    opacity: 95%;
+    filter: drop-shadow(0px 0px 20px #0b2011);
+}
+
+.anhadir-palabra{
+    padding:5px 15px; 
+    cursor:pointer;
+    position: relative;
+    width: 280px;
+    height: 67px;
+    left: 800px;
+    margin-top: 2%;
+    border: 1px solid #369457;
+    border-radius: 24px;
+    color: #1F6032;
+    font-size: 16px;
+}
+
+#btnanhadir:hover{
+    color: #43b46b;
+    border: 1px solid #43b46b;
+    filter: drop-shadow(0px 0px 5px #1F6032);
+}
+
+#btnanhadir:active{
+    filter: drop-shadow(0px 0px 10px #0b2011);
 }
