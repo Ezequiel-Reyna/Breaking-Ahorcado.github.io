@@ -21,6 +21,9 @@ var btnanhadir = document.querySelector("#btnanhadir")
       reproduciendose = reproduciendose + 1;
       if (reproduciendose == 1) {
         audio.play();
+      }else{
+        audio.pause();
+        reproduciendose = 0;
       }
       return(reproduciendose);
       }
