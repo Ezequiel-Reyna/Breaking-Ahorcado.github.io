@@ -2,22 +2,16 @@ body{
     background-color: white;
 }
 #logo{
-    position: absolute;
+    position: relative;
     width: 591px;
     height: 875px;
     left: -30px;
     top: -170px;
 }
 .botonIniciar{
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    position: relative;
-    justify-content: space-around;
-    margin-top: 19%;
-    margin-left: 34%;
-    width: 576px;
-    height: 136px;
+    position: absolute;
+    top: 45%;
+    left: 35%;
 }
 
 #iniciar:hover{ 
@@ -31,13 +25,13 @@ body{
 }
 
 .anhadir-palabra{
-    padding:5px 15px; 
     cursor:pointer;
-    position: relative;
+    position: absolute;
+    top: 60%;
+    left: 42.5%;
     width: 280px;
     height: 67px;
-    left: 800px;
-    margin-top: 2%;
+
     border: 1px solid #369457;
     border-radius: 24px;
     color: #1F6032;
@@ -53,3 +47,257 @@ body{
 #btnanhadir:active{
     filter: drop-shadow(0px 0px 10px #0b2011);
 }
+
+#botonPalabra {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 8px;
+    position: absolute;
+    width: 280px;
+    height: 67px;
+    left: 579px;
+    top: 554px;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+}
+
+#mostrarPalabra {
+    text-transform: uppercase;
+    display: none;
+}
+
+#tp{
+    position: absolute;
+    opacity: 30%;
+    width: 1549px;
+    height: 902px;
+    left: 10%;
+    top: 10%;
+}
+
+#teq{
+    position: absolute;
+    width: 957px;
+    height: 67px;
+    top: 13%;
+    left: 26%;
+}
+
+#ingresarPalabra {
+    position: absolute;
+    width: 824px;
+    height: 560px;
+    left: 28%;
+    top: 30%;
+    background: rgba(0, 112, 0, 0.9);
+    opacity: 0.93;
+    border-radius: 40px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    color: white; 
+
+}
+#ingresarPalabra::placeholder{
+    color: white; 
+   font-family: 'Inter';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 32px;
+   text-indent: 50px;
+   line-height: 150%;  
+   
+}
+
+
+
+#notificacion {
+    position: absolute;
+    left: 31%;
+    right: 949px;
+    top: 76.5%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 150%;    
+    color: white;
+    opacity: 0.8;
+}
+
+
+#botonGuardarPalabra {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    position: absolute;
+    left: 30%;
+    right: 732px;
+    top: 79%;
+    padding: 24px;
+    gap: 8px;
+    width: 332px;
+    height: 67px;
+    background: rgba(13, 62, 16, 1);;
+    border-radius: 24px;
+    color: white;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    align-items: center;
+    border: none;
+    text-align: center;
+}
+
+#botonCancelar {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    position: absolute;
+    left: 52%;
+    right: 376px;
+    top: 79%;
+    padding: 24px;
+    gap: 8px;
+    width: 332px;
+    height: 67px;
+    background: white;
+    border-radius: 24px;
+    color: rgba(0, 112, 0, 0.9);
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    align-items: center;
+    border: 1px solid rgba(0, 112, 0, 0.9);
+}
+
+#botonMostrarLista {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    position: relative;
+    left: 350px;
+    right: 650px;
+    top: 750px;
+    padding: 24px;
+    gap: 8px;
+    width: 250px;
+    height: 67px;
+    background: rgba(0, 112, 0, 0.9);
+    border-radius: 24px;
+    color: white;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    align-items: center;
+    border: none;
+}
+
+
+
+#botonDesistir {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    position: relative;
+    left: 650px;
+    right: 250px;
+    top: 750px;
+    padding: 24px;
+    gap: 8px;
+    width: 250px;
+    height: 67px;
+    background: white;
+    border-radius: 24px;
+    color: rgba(0, 112, 0, 0.9);
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    align-items: center;
+    border: 1px solid rgba(0, 112, 0, 0.9);
+}
+
+#horca {
+    position: relative;
+    top: 50px;
+    left: 500px;
+    width: 400px;
+    height: 500px;
+}
+
+#palabraSecreta {
+    position: relative;
+    width: 250px;
+    height: 40px;
+    top: 590px;
+    left: 580px; 
+    text-transform: uppercase;
+    font-size: 35px;
+    font-weight: bold;
+    color: rgba(0, 112, 0, 0.9);
+    letter-spacing: 15px;
+}
+
+#letrasErradas {
+    position: relative;
+    width: 250px;
+    height: 40px;
+    top: 665px;
+    left: 580px;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: bold;
+    color: #db2912;
+    letter-spacing: 15px;
+}
+
+#ingresarLetra {
+    background: #d1dae4;
+    position: relative;
+    width: 120px;
+    height: 20px;
+    top: 80%;
+    left: 380px;
+    padding: 20px;
+    font-size: 15px;
+    line-height: 22px;
+    align-items: center;
+    text-transform: uppercase;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+
+
+
+#botonIngresarLetra {
+    background: rgba(0, 112, 0, 0.9);
+    color: white;
+    border-color: transparent;
+    border-radius: 10px;
+    position: relative;
+    width: 160px;
+    height: 45px;
+    top: 70%;
+    left: 20%;
+    padding: 10px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 22px;
+    cursor: pointer;
+}
+
